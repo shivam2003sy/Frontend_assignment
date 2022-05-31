@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import {Link} from 'react-router-dom'
 function pass() {
     const style={
         color : "#718096",
@@ -38,10 +39,10 @@ function pass() {
     </div>
                           
                           <div class="flex justify-center text-center ">
-                              <Button name = "Verify Account"/>
+                             <Link to="/auth"> <Button name = "Send Link"/></Link>
                           </div>
-                          <div class="flex flex-col mt-4">
-                                <span>Forget your email </span>
+                          <div class="flex flex-col text-12">
+                                <span >Forget your email ? </span>
                             </div>
                     </div>
                 </div>

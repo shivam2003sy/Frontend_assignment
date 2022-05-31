@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import logo from '../asset/logo.svg'
 export default function Headbar(props) {
   return (
@@ -18,7 +18,7 @@ export default function Headbar(props) {
                 </div>
                 </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <button
+             <Link to="/"> <button
                 type="submit"
                 className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#194BFB] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
@@ -27,6 +27,7 @@ export default function Headbar(props) {
                 </span>
                 {props.text}
               </button>
+              </Link>
                </div>
             </div>  
             </div>    

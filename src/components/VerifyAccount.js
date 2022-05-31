@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import {Link} from "react-router-dom"
 const style={
     color : "#718096",
     size : "16px"
@@ -26,7 +27,7 @@ function VerifyAccount() {
                       </div>
                       
                       <div class="flex justify-center text-center ">
-                          <Button name = "Verify Account"/>
+                          <Link to="/home"><Button name = "Verify Account"/></Link>
                       </div>
                       <div class="flex flex-col mt-4">
                             <span  style={style}>Resend code in <b className='text-[#1A202C]'>59:00</b></span>
