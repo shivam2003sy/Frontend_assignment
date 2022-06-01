@@ -10,8 +10,8 @@ function SignIn() {
   return (
     <div class="flex justify-center items-center bg-gray-200 min-h-screen">
         <div class=" bg-white md:rounded-lg rounded-lg">
-        <div class="flex h-full ">
-            <div class="left_side h-fit rounded-lg p-3 w-6/12 bg-white text-center mr-2 ml-36">
+        <div class="flex h-full w-full">
+            <div class="left_side h-fit rounded-lg p-3 w-6/12  text-center mr-10 ml-20">
                 <img className  ="md:rounded-lg" src={logo} alt='logolight'/>
                 <h1 class="text-2xl font-bold  mt-20 ">Sign in to Overpay</h1>
                 <span style={style} className="text-xs"> Send,spend and save smarter</span>
